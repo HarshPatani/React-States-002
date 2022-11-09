@@ -3,7 +3,7 @@ import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 
 function App() {
-  const [markDown, setMarkDown] = useState("# Markdown Previw");
+  const [markDown, setMarkDown] = useState("# Markdown Preview");
   return (
     <>
       <h1 className="h1">MarkDown Editor</h1>
